@@ -1,0 +1,20 @@
+1.login เข้าไปที่เว็บ github
+2.สร้าง New Repositories -> php_pdo
+3.ที่vs code เปิด terminal
+4.ใช้คำสั่งดังนี้
+  -git init//สร้างไฟล์ .git ให้กับเรา
+  -git add . //เป็นคำสั่งนำไฟล์ทั้งหมดขึ้น
+  -git commit -m "first commit" //เป็นการยืนยันการเอาไฟล์ขึ้นแล้วใส่ข้อความดังกล่าวให้ทราบ
+  -git branch -M main //เป็นการนำไฟล์ขึ้นไปไว้ที่โฟลเดอร์ไหน
+  -git remote add origin https://github.com/heis5964/php_pdo.git //เป็นการนำไฟล์ขึ้นที่urlที่ระบุ
+  -git push -u origin main //นำไฟล์ขึ้นไปไว้ที่urlที่ระบุข้างต้น
+5.การนำcodeบนGithubมาใช้ก็ให้ดำเนินการใช้คำสั่งดังนี้
+  -cd ไปที่โฟลเดอร์ที่ต้องการวางcode
+  -git clone https://github.com/heis5964/php_pdo //แล้วกดEnter
+6.กรณีเขียนโค๊ดเพิ่มและต้องการนำขึ้นก็ให้ดำเนินการดังนี้
+ุ7.เปิด terminal ที่ vs code 
+8.ใช้คำสั่งดังนี้
+  -git status
+  -git add .
+  -git commit -m "add database"
+  -git push -u origin main
